@@ -1,12 +1,13 @@
-import Header from '../src/components/Header';
-import Hero from '../src/components/Hero';
-import Services from '../src/components/Services';
-import Banner from '../src/components/Banner';
-import Footer from '../src/components/Footer';
+import Header from "../src/components/Header";
+import Hero from "../src/components/Hero";
+import Services from "../src/components/Services";
+import Banner from "../src/components/Banner";
+import Footer from "../src/components/Footer";
 
 export default function HomePage() {
   return (
     <div className="min-h-screen">
+      <img src="/veo video reference image (5).jpg" alt="image" />
       <Header />
       <Hero />
       <Services />
@@ -14,4 +15,4 @@ export default function HomePage() {
       <Footer />
     </div>
   );
-} 
+}

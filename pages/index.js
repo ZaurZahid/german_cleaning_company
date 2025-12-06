@@ -7,6 +7,10 @@ import Footer from "../src/components/Footer";
 export default function HomePage() {
   return (
     <div className="min-h-screen">
+      <img
+        src="/Generated Image December 06, 2025 - 11_51AM.jpeg"
+        alt="image"
+      />
       <img src="/veo video reference image (9).jpg" alt="image" />
       <img src="/veo video reference image (5).jpg" alt="image 2" />
       <Header />
